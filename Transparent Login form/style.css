@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sofia", sans-serif;
+}
+
+body {
+    background: url('image.png') no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 27%;
+    left: 35%;
+    backdrop-filter: blur(0.5px);
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    border-bottom: 5px solid rgb(137, 137, 214);
+    margin-bottom: 43px;
+    padding: 11px 0px;
+}
+
+.box {
+    text-align: center;
+    padding: 9px;
+    border-bottom: 4px solid rgb(137, 137, 214);
+    color: white;
+    outline: none;
+}
+
+.box input {
+    background-color: rgb(146, 183, 196);
+    margin: -8px 0px;
+    width: 234px;
+    padding: 4px 0px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.container i {
+    padding: 6px;
+    color: white;
+}
+
+.btn {
+    background-color: rgb(146, 183, 196);
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding: 4px 6px;
+    margin: 11px;
+    cursor: pointer;
+}
